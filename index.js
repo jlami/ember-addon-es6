@@ -1,11 +1,12 @@
 /* jshint node: true */
 'use strict';
 
+let debug = require('debug');
+debug.enable('broccoli-stew:*');
+
 var stew = require('broccoli-stew');
 var Funnel = require('broccoli-funnel');
 var path = require('path');
-let debug = require('debug');
-debug.enable('broccoli-stew:*');
 
 module.exports = {
   name: 'addon-es6',
