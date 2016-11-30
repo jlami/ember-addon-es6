@@ -45,6 +45,7 @@
     "ember-addon"
   ],
   "dependencies": {
+    "broccoli-funnel": "^1.0.9",
     "broccoli-stew": "^1.4.0",
     "ember-cli-babel": "^5.1.6",
     "npm-es6": "jlami/npm-es6"
