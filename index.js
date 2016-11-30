@@ -18,9 +18,9 @@ module.exports = {
   		getDestinationPath: () => path.join(/*'modules', 'npm-es6',*/ 'index.js')
   	});
   	
-  	let root = this._super.apply(this, arguments);
+  	//let root = this._super.apply(this, arguments);
   	
-  	let res = stew.find([root, modES6]);
+  	let res = modES6;//stew.find([root, modES6]);
   	
   	res = stew.log(res);
   	
