@@ -19,6 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
+    "debug": "^2.3.3",
     "ember-ajax": "^2.0.1",
     "ember-cli": "2.8.0",
     "ember-cli-app-version": "^1.0.0",
@@ -44,7 +45,9 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "broccoli-stew": "^1.4.0",
+    "ember-cli-babel": "^5.1.6",
+    "npm-es6": "jlami/npm-es6"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
